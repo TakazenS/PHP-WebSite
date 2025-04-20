@@ -1,5 +1,6 @@
 <footer class="footer">
     <div class="footer-container">
-        <p class="txt-footer">Pied de page</p>
+        <a class="txt-footer" href="#">Mentions Légales</a>
+        <a class="txt-footer" href="#">Copyright</a>
     </div>
 </footer>
