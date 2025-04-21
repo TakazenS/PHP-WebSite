@@ -22,6 +22,8 @@
     min-height: 100vh;
 }
 
+/********** Header **********/
+
 .header {
     z-index: 1000;
     position: relative;
@@ -96,6 +98,8 @@
     cursor: pointer;
 }
 
+/********** Main **********/
+
 .main {
     flex: 1;
     background-color: #ffffff;
@@ -120,14 +124,110 @@
     border-radius: 10px;
 }
 
+.container-txt-side-panel {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin: 0 20px;
+}
+
+.button-container-side-panel {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.button-side-panel {
+    color: #ffffff;
+    background-color: #6181b6;
+    border-radius: 10px;
+    padding: 12px 45px;
+    margin: 12px 0;
+    border: 2px solid #000000;
+}
+
+.button-side-panel:hover {
+    background-color: #6a91cc;
+    cursor: pointer;
+}
+
 .main-section {
     position: relative;
     display: flex;
+    flex-direction: column;
     width: 80%;
+    height: 70vh;
     margin-left: 20px;
     border: 2px solid #000000;
     border-radius: 10px;
+    background: #6181b6;
+    overflow-y: auto;
 }
+
+.container-txt-main-section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+/********** TP3 **********/
+
+.TP3exercice1 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin: 30px 25%;
+    border-radius: 10px;
+}
+
+.section_exo1tp3 {
+    background-color: white;
+    padding: 20px 30px;
+    border-radius: 10px;
+}
+
+.section_exo1tp3 ul li {
+    margin: 3px 0;
+}
+
+.TP3exercice2 {
+    position: relative;
+    display: none;
+    flex-direction: column;
+    padding: 30px 7%;
+    border-radius: 10px;
+}
+
+.section_exo2tp3 {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.tiret {
+    list-style-type: '-';
+}
+
+.tabulation_ex2TP3 {
+    padding-left: 30px;
+}
+
+.positionPKey {
+    height: 4px;
+}
+
+/********** Footer **********/
 
 .footer {
     display: flex;
@@ -150,5 +250,6 @@
 }
 
 .footer-container a:hover {
-    color: #dbdbdb;
+    color: #e6e6e6;
+    text-decoration: underline;
 }

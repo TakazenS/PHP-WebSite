@@ -1,0 +1,1 @@
+document.getElementById('main-section').style.backgroundColor = "#ffffff";

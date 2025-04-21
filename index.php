@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="favicon" type="image/ico" href="/WebPhp/public/images/favicon/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="/WebPhp/public/images/favicon/favicon.ico">
+    <link rel="apple-touch-icon" href="/WebPhp/public/images/php-logo.png">
     <link rel="stylesheet" href="/WebPhp/style.css">
     <title>Accueil</title>
 </head>
@@ -12,13 +13,18 @@
     <main class="main">
         <div class="main-container">
             <span class="main-side-panel">
-                <p class="txt-side-panel">Side panel</p>
+                <div class="container-txt-side-panel">
+                    <p class="txt-side-panel">Vous retrouverez ici les bouttons de navigation des différents exercices de chaques tp !</p>
+                </div>
             </span>
-            <section class="main-section">
-                <p class="txt-section">Corps de la page</p>
+            <section class="main-section" id="main-section">
+                <div class="container-txt-main-section">
+                    <p class="txt-main-section">Vous retrouverez ici les différents exercices de chaques tp !</p>
+                </div>
             </section>
         </div>
     </main>
     <?php include('./public/pages/footer.php'); ?>
+    <script src="/WebPhp/script.js"></script>
 </body>
 </html>
