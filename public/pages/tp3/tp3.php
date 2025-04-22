@@ -6,27 +6,25 @@
     <link rel="icon" type="image/x-icon" href="/WebPhp/public/images/favicon/favicon.ico">
     <link rel="apple-touch-icon" href="/WebPhp/public/images/php-logo.png">
     <link rel="stylesheet" href="/WebPhp/style.css">
-    <title>TP 1</title>
+    <title>TP 3</title>
 </head>
 <body class="body">
     <?php include('../header.php'); ?>
     <main class="main">
         <div class="main-container">
             <span class="main-side-panel">
-                <div class="button-container-side-panel">
-                    <button class="button-side-panel" id="button-exo1-tp3">Exercice 1</button>
-                    <button class="button-side-panel" id="button-exo2-tp3">Exercice 2</button>
+                <div class="container-txt-side-panel">
+                    <p class="txt-side-panel">Vous retrouverez ici les bouttons de navigation des différents exercices de chaques tp !</p>
                 </div>
             </span>
-            <section class="main-section">
-                <div class="scroll-zone">
-                    <?php include('./exo1.php'); ?>
-                    <?php include('./exo2.php'); ?>
+            <section class="main-section" id="main-section">
+                <div class="container-txt-main-section">
+                    <p class="txt-main-section">Vous retrouverez ici les différents exercices de chaques tp !</p>
                 </div>
             </section>
         </div>
     </main>
     <?php include('../footer.php'); ?>
-    <script src="/WebPhp/public/pages/tp1/script-tp1.js"></script>
+    <script src="/WebPhp/script.js"></script>
 </body>
 </html>
