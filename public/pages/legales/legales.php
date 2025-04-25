@@ -16,7 +16,7 @@
                 <h2>Éditeur du site :</h2>
                 <p>Ce site est un projet personnel réalisé dans le cadre d’un apprentissage au développement web.</p>
                 <p>Responsable de la publication : Moine Loris.</p>
-                <p>Contact : <a href="mailto:">moine.loris420@gmail.com</a></p>
+                <p>Contact : <a href="mailto:moine.loris420@gmail.com">moine.loris420@gmail.com</a></p>
             </div>
             <div class="container-mentions">
                 <h2>Hébergement :</h2>
