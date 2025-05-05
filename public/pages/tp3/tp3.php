@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="icon" type="image/x-icon" href="/WebPhp/public/images/favicon/favicon.ico">
-    <link rel="apple-touch-icon" href="/WebPhp/public/images/php-logo.png">
-    <link rel="stylesheet" href="/WebPhp/style.css">
+    <link rel="icon" type="image/x-icon" href="/web/public/images/favicon/favicon.ico">
+    <link rel="apple-touch-icon" href="/web/public/images/php-logo.png">
+    <link rel="stylesheet" href="/web/style.css">
     <title>TP 3</title>
 </head>
 <body class="body">
@@ -25,6 +25,6 @@
         </div>
     </main>
     <?php include('../footer.php'); ?>
-    <script src="/WebPhp/public/pages/tp3/script-tp3.js"></script>
+    <script src="/web/public/pages/tp3/script-tp3.js"></script>
 </body>
 </html>
