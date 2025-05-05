@@ -6,7 +6,7 @@
     <link rel="icon" type="image/x-icon" href="/web/public/images/favicon/favicon.ico">
     <link rel="apple-touch-icon" href="/web/public/images/php-logo.png">
     <link rel="stylesheet" href="/web/style.css">
-    <title>Accueil</title>
+    <title>Mentions Légales</title>
 </head>
 <body class="body">
     <?php include('../header.php'); ?>
