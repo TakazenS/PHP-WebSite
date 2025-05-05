@@ -233,6 +233,50 @@
     height: 4px;
 }
 
+/********** TP 2 **********/
+
+.memory {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    overflow-y: auto;
+}
+
+.container-memory {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-gap: 20px;
+    height: auto;
+    width: auto;
+    background-color: #6182b65e;
+    border-radius: 10px;
+    border: 2px solid #000000;
+    padding: 20px;
+}
+
+.card {
+    height: 125px;
+    width: 125px;
+    justify-self: center;
+    align-self: center;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    z-index: 1;
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+
 /********** TP 3 **********/
 
 .tab1-tp6 {
