@@ -23,7 +23,7 @@
                     <button class="button-side-panel" id="button-exo7-tp7">Exercice 7</button>
                 </div>
             </span>
-            <section class="main-section">
+            <section class="main-section" id="main-section">
                 <?php include('./exo1.php'); ?>
                 <?php include('./exo2.php'); ?>
                 <?php include('./exo3.php'); ?>
@@ -35,6 +35,7 @@
         </div>
     </main>
     <?php include('../footer.php'); ?>
+    <script src="/web/script.js"></script>
     <script src="/web/public/pages/tp4/script-tp4.js"></script>
 </body>
 </html>

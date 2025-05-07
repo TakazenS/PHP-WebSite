@@ -17,7 +17,7 @@
                     <button class="button-side-panel" id="button-exo1-tp6">Exercice 1</button>
                 </div>
             </span>
-            <section class="main-section">
+            <section class="main-section" id="main-section">
                 <div class="scroll-zone">
                     <?php include('./exo1.php'); ?>
                 </div>
@@ -25,6 +25,7 @@
         </div>
     </main>
     <?php include('../footer.php'); ?>
+    <script src="/web/script.js"></script>
     <script src="/web/public/pages/tp3/script-tp3.js"></script>
 </body>
 </html>
